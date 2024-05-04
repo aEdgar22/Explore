@@ -7,9 +7,9 @@ const HomeScreen = () => {
  
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'purple' }}>
       <Text>Bienvenido a la App</Text>
-      <LogoutButton  />
+     {/*  <LogoutButton  /> */}
     </View>
   )
 }
